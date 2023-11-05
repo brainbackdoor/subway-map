@@ -7,11 +7,10 @@
 <p align="middle">
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
+  <img src="https://img.shields.io/badge/language-java-red.svg?style=flat-square"/>
   <img alt="npm" src="https://img.shields.io/badge/npm-%3E%3D%205.5.0-blue">
   <img alt="node" src="https://img.shields.io/badge/node-%3E%3D%209.3.0-blue">
-  <a href="https://edu.nextstep.camp/c/VI4PhjPA" alt="infra workshop">
-    <img alt="Website" src="https://img.shields.io/website?url=https://edu.nextstep.camp/c/VI4PhjPA">
-  </a>
 </p>
 
 <br>
