@@ -20,7 +20,8 @@
   <img src="./images/subway_app_preview.png">
 </p>
 
-인프라공방 강의 학습을 위한 예제 코드입니다.
+[인프라공방 강의](https://inf.run/Ysu6U) 학습을 위한 예제 코드입니다. 미션 요구사항은 [블로그](https://www.brainbackdoor.com/infra)에서 확인할 수 있습니다.<br>
+
 - 역 관리, 노선 관리, 구간 관리, 경로 검색 등의 지하철 노선 관리 기능
 - 로그인, 회원 정보 수정, 즐겨찾기 등의 회원 관리 기능
 
