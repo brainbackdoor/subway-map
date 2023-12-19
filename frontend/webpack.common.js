@@ -68,5 +68,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [new VuetifyLoaderPlugin(), new VueLoaderPlugin(), new CaseSensitivePathsPlugin()]
+  plugins: [new VueLoaderPlugin(), new VuetifyLoaderPlugin(), new CaseSensitivePathsPlugin()]
 }

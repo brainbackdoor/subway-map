@@ -33,10 +33,14 @@
 
 ```
 sudo apt update
-sudo apt install nodejs npm
+sudo apt install -y g++ build-essential
+sudo apt install -y python2
+alias python=python2
 
-cd frontend
-npm install
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install 12.22.9
+sudo apt install -y nodejs
 ```
 
 ### webpack server 구동
@@ -45,7 +49,11 @@ npm run dev
 ```
 ### application 구동
 ```
+sudo apt install -y default-jre
+sudo apt install -y default-jdk
+
 ./gradlew clean build
+java -jar build/libs/subway-map-0.0.1-SNAPSHOT.jar 1> app.log 2>&1 &
 ```
 <br>
 
